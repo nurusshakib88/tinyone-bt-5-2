@@ -1,0 +1,98 @@
+/*common start*/
+
+body {   
+   font-family: PTSans-Regular;
+   font-size: 16px;
+   font-weight: 400;
+   color: #010101;
+}
+
+/*common end*/
+
+@font-face {
+   font-family: PTSans-Regular;
+   src: url(../fonts/PTSans-Regular.ttf);
+}
+
+
+@font-face {
+   font-family: PTSans-Bold;
+   src: url(../fonts/PTSans-Bold.ttf);
+}
+
+
+/*header start*/
+
+header {
+	background-color: #fcdb00;
+	padding: 20px 0;
+}
+
+/*navbar start*/
+
+.c_nav {}
+
+/*logo start*/
+
+.logo {}
+
+/*logo end*/
+
+/*menu start*/
+
+.menu ul li a {
+	margin: 0 40px !important;
+	font-family: PTSans-Bold;
+   	font-size: 22px;
+   	color: #010101 !important;
+}
+
+.menu ul li a:hover {
+	color: white !important;
+}
+
+/*menu end*/
+
+/*navbar end*/
+
+/*header end*/
+
+
+/*slider start*/
+
+.slider {
+	background-color: #fcdb00;
+   	padding-bottom: 100px;
+}
+
+/*indicators*/
+
+.s_text{
+
+}
+
+.s_text h1 {
+   font-family: PTSans-Bold;
+   font-size: 32px;
+
+}
+.s_text h2 {
+   font-size: 20px;
+   color: #313841;
+
+}
+.s_text p {
+   font-size: 16px;
+   color: #555555;
+
+}
+
+.s_icon {}
+.s_icon ul li i {
+   font-size: 42px;
+}
+
+.s_img {}
+.s_img  img {}
+
+/*slider end*/
